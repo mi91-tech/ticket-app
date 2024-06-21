@@ -1,0 +1,685 @@
+body{
+    /* background-size: contain; */
+    background-color: #1E3957;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    background-color: #0C223E;
+    padding: 20px  ;
+    width: 100%;
+ position: relative;width: 100%;
+    position:fixed;
+    height: 40px;
+    justify-content:center;
+
+    margin-top: -20px;
+    
+    display: inline-flex;
+}
+.nav-content{
+    display: inline-flex;
+    
+}
+.login-bg{
+    background-color: white;
+    border-radius: 10px;
+    height: 530px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    /* margin-bottom: 13%; */
+
+    padding-top: 50px;
+}
+.flex{
+    text-align: center;
+     color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+      margin-top: 30px;
+     font-size: 12px; 
+     text-align: center;
+     /* display: flex; */
+     margin-left: auto;
+     margin-right: auto;
+}
+.flex h1{
+    text-align: center;
+}
+#Notification{
+    /* background-color: #0C223E;  */
+    background-image: 
+    linear-gradient(to right,#F08A1C ,lightblue);
+    width: 240px;
+    border: 1px rgb(70, 70, 105)  solid;
+    text-align: center;
+    height: 40px;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    margin-left:80%;
+    color: black;
+    border-radius: 7px;
+     visibility: hidden;
+     /* display: none; */
+     animation-name: notificate;
+     animation-duration: 0.5s;
+     transition: all 700ms ease;
+     margin-top: 10px;
+
+    }
+.logo{
+        height: 70px;
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+        background-image: 
+    linear-gradient(to bottom,#FFFFFF ,#F6F6F6);
+    }
+.gsw{
+text-align: center; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: rgb(136, 134, 134); 
+ font-size:13px;
+}
+.signin-bg{
+    background-color: white;
+    border-radius: 26px;
+    height: 650px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+padding-top: 20px;
+    margin-top: -65px;
+    
+}
+.signup-form{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: rgb(136, 134, 134);
+  font-size: 20px;
+   margin-left: 75px; 
+   line-height: 41px;
+     background-color: white;
+     width: 200px;
+}
+.signup-form label{
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:rgb(90, 88, 88); 
+    font-size: 17px;
+     font-weight: bold;
+      margin-left:-37px ;
+     margin-top: 40px;
+}
+.signup-form input{
+    margin-left: -40px;
+     height: 45px;
+      width: 370px;
+      margin-top: -24px;
+      font-size: 16px;
+      color: black;
+}
+.r-btn{
+    margin-left: 40px;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 17px;
+    border-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    cursor: progress;
+}
+.login-form{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(136, 134, 134);
+      font-size: 24px; 
+    margin-left: 40px;
+    width: 360px;
+
+}
+.login-btn{
+    border-radius: 7px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 372px;
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+    font-size: 20px;
+    color: white;
+    cursor: progress;
+}
+.login-form input{
+    
+    background-color: #E8F0FE;
+    height: 40px;
+    border-inline-color: #E8F0FE;
+    border-top: #0C223E;
+    border-bottom: #0C223E;
+    font-size: 16px;
+}
+#gmail{
+    /* background-color:gold; */
+}
+.loginEmail-label{
+text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+color: rgb(136, 134, 134); 
+font-size: 17px; 
+}
+.loginPassword-label{
+    text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     color: rgb(136, 134, 134); 
+     font-size: 17px; 
+}
+.preshy{
+    text-align: center;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    
+}
+.touc{
+    text-align: center;
+    text-decoration: underline;
+    font-size: medium;
+    color: dimgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.litya{
+        text-align: center;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: rgb(37, 36, 36);
+          font-size: 20px;
+    }
+.Appname {
+    background: linear-gradient(to right, #F08A1C, lightblue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size: 33px;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        width: max-content;
+     /* Optional, makes sure text doesn't overflow */
+}
+.navbar a{
+    color: white;
+    font-size: 21px;
+    position: relative;left: -106px ;
+    position: relative;top:14px ;
+    /* left: -90%; */
+}
+.bi-folder-plus{
+    margin-left: 13px;
+}
+
+#Logout-btn{
+    background-color: rgb(207, 16, 16);
+    color:white;
+    width: 90px;
+    height: 50px;
+     margin-left: 30px; 
+    margin-top: 16px;
+    cursor: pointer;
+border-radius: 6px;
+font-size: 18px;
+}
+#Logout-bg{
+     margin-top: 25px; 
+    background-color: white;
+    width: 150px;
+    
+    position: relative;left: 86%;
+    height: 80px;
+    border-radius: 8px;
+    visibility: hidden;
+    
+}
+.ui{
+    cursor: pointer;
+    display: inline-flex;
+
+    margin-top: 10px;
+    font-size: large;
+
+    margin-left: 812px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+} 
+
+.category{
+    color: white;
+     font-size: 21px; 
+      font-weight: bold;
+       font-family: Arial, Helvetica, sans-serif;
+       margin-top: 74px;
+       /* margin-left: 10%; */
+}
+#userName{
+    margin-left: 5px;
+    margin-bottom: -100px;
+    margin-top: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+img{
+    height: 40px;
+    margin-top: -15px;
+margin-left: auto;
+margin-right: auto;
+ }
+
+.bi-alarm{
+    font-size: 15px;
+ cursor: pointer;
+ margin-left: 5px;
+
+}
+.bi-eye{
+    margin-left: 42%;
+    font-size: 14px;
+    cursor: pointer;
+   }
+.bi-pencil-square{
+    font-size: 14px;  
+    color: yellow;
+    margin-left: 1%;
+ cursor: pointer;
+
+}
+.bi-x-lg{
+    font-size: 14px;  
+    color: red;
+ cursor: pointer;
+
+    margin-left: 1%;
+}
+#alarm1{
+    margin-left: 2%;
+    color: red;
+}
+#ticketTitle{
+    margin-left: 3%; 
+    color: white; 
+    font-weight: bolder; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    margin-top: 08px;
+}
+hr{
+    margin-top: -13px;
+    width: 92.8%;
+    margin-left: px;
+}
+#ticketDescription{
+    margin-left: 3%; 
+    color: white;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+      font-size: 17px;
+       margin-top: 10px; 
+      line-height: 25px
+}
+#ticketDate{
+    margin-left: 3%;
+     font-size: 17px; 
+     font-weight:bold; 
+     font-family: Arial, Helvetica, sans-serif; 
+     color: rgb(26, 24, 24);
+      margin-top: 40px;
+    }
+    .progress{
+        display: flex;
+         margin-left: 3%;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+          font-size: 18px;
+           margin-top: 10px;
+    }
+    .zero{
+        margin-top: -2%;
+    }
+    #myRange{
+        /* margin-top: -4px;  */
+        width: 80px;
+        height: 10px;
+        
+    }
+    .hun{
+        margin-top: -2%;
+    }
+    #ticketStatus{
+        background-color: rgb(221, 65, 65); 
+        width: 77px; 
+        text-align: center;
+         color: white; 
+         border-radius: 15px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           margin-left: 76.5%;
+           font-weight: lighter;
+           margin-top: -40px; 
+           height: 26px;
+           font-size: 15px;
+           padding-top: 7px;
+    }
+.category2{
+    color: white;
+    font-size: 21px; 
+     font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 2%;
+      /* margin-left: 10%; */
+
+}
+.category3{
+    color: white;
+    font-size: 21px; 
+     font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 2%;
+      /* margin-left: 10%; */
+
+}
+
+#create{
+    
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 0px;
+font-size: 21px;
+}
+.ct-header{
+ /* position: absolute;  */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 24px;
+    background: linear-gradient(to top,white ,#c5731b ); 
+    -webkit-text-fill-color: transparent;-webkit-background-clip: text;   
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: -350px;
+}
+form input,
+form textarea,
+form button{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+#create label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: white; 
+     font-size: 18px;
+      font-weight: bold;
+}
+#problem{
+    width: 500px;
+    margin-top: 08px;
+    height: 35px ;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.create-title{
+    height: 35px ;
+}
+.create-description{
+    height: 70px ;
+}
+.radios{
+    height: 36px;
+    display: flex;
+    margin-left:-10px ;
+    width: 200px;
+    
+}
+.ctp-radio{
+    margin-top: 5px;
+}
+.edit-priority{
+margin-top: 26px;
+}
+form button{
+    background-color:  #0D6EFD;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+}
+
+
+ 
+.Tickets{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-right:auto ; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    overflow-y: hidden;
+/* row-gap: 10px; */
+    gap: 15px  ;
+     
+    box-sizing: border-box;
+}
+
+.container {
+    /* Adjust the parent container's size */
+     height: 1000px;
+    width: 1200px; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+
+.Ticket{
+    
+     border: 1px solid #8D99AE;
+     background-color:#8D99AE ;
+    padding: 1rem;
+    
+    height: 245px; 
+    width: 80%; 
+align-content: center;
+ min-height: 0;
+    border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+    .Tickets{
+        height: 100%;
+        /* gap: 30px  ; */
+        row-gap: 50px;
+        display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 20px;
+    
+    }
+    .Ticket{
+        padding-top: 0px;
+        /* padding: 0.8rem; */
+        height: 280px; 
+        width: 360px; 
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    }
+    #ticketDescription{
+        font-size: 18px;
+    }
+    .container {
+        /* Adjust the parent container's size */
+        width: 70%; 
+        padding-top: 10px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
+      .category,
+      .category2,
+      .category3{
+        text-align: center;
+      }
+    .category{
+        margin-top: 60px;
+    }
+    .category2{
+        margin-top: 50px;
+    }  
+    .category3{
+        margin-top: 50px;
+    }  
+    .Appname{
+        font-size:22px ;
+        margin-top: 36px;
+        margin-left: -55px;
+    }
+   
+    .navbar a{
+       position: absolute;
+        left:60px ;
+        margin-top: 20px;
+    }
+    .bi-folder-plus{
+        margin-left: 30px;
+    }
+    .ui{
+       margin-left: 330px; 
+    }
+    
+    #Logout-bg{
+      
+       
+       position: relative;left: 70%;
+       
+       
+   }
+   /* #first{
+    margin-top: -20px;
+   } */
+   /* .tt{
+    margin-top: -17px;
+   } */
+.bi{
+    font-size: 17px;
+   }
+.bi-folder-plus{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.bi-house-fill{
+    font-size: 24px;
+   
+}
+
+}
+
+
+@media (max-width:555px) {
+    
+    .Ticket{
+width: 340px;
+
+    }
+    .container{
+        width: 100%;
+    }
+    .ui{
+        margin-left: 230px;
+    }
+    .Appname{
+        margin-left: -65px;
+    }
+    .navbar a{
+        position: absolute;
+        left: 36px;
+    }
+/* .bi-folder-plus{
+        font-size: 25px;
+        margin-left: 15px;
+
+    }
+.bi-house-fill{
+        font-size: 25px;
+        
+    } */
+    .bi{
+        /* font-size: 15px; */
+    }
+}
+
+
+
+@media (max-width : 450px) {
+    .bi-folder-plus{
+        font-size: 30px;
+    }
+    .bi-house-fill{
+        font-size: 30px;
+    }
+    .bi{
+        font-size: 15px;
+    }
+    .container{
+        width: 100%;
+    }
+    .Ticket{
+        width: 320px;
+    }
+    .Appname{
+        display: none;
+    }
+    .ui{
+        display: block;
+        margin-left: 200px;
+    }
+    .Richard{
+        margin-left: 50px;
+    }
+        
+    #Logout-bg{
+      
+       margin-top: 110px;
+        position: relative;left: 60%;
+        
+        
+    }
+    .bi-folder-plus{
+        font-size: 20px;
+    }
+    .bi-house-fill{
+        font-size: 20px;
+    }
+}
+
+
+
+
+  

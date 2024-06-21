@@ -1,0 +1,79 @@
+@media (max-width: 850px) {
+    .ct-container{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bi-house-fill{
+        margin-left: 45px;
+    }
+    .bi-folder-plus{
+        margin-left: 15px;
+    }
+}
+#create{
+    
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 0px;
+font-size: 21px;
+}
+.ct-header{
+ /* position: absolute;  */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 24px;
+    background: linear-gradient(to top,white ,#c5731b ); 
+    -webkit-text-fill-color: transparent;-webkit-background-clip: text;   
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+    margin-left: -350px;
+}
+form input,
+form textarea,
+form button{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+#create label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: white; 
+     font-size: 18px;
+      font-weight: bold;
+}
+#problem{
+    width: 500px;
+    margin-top: 08px;
+    height: 35px ;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.edit-title{
+    height: 35px ;
+}
+.edit-description{
+    height: 70px ;
+}
+.radios{
+    height: 36px;
+    display: flex;
+    margin-left:-10px ;
+    width: 200px;
+    
+}
+.ctp-radio{
+    margin-top: 5px;
+}
+.edit-priority{
+margin-top: 26px;
+}
+form button{
+    background-color:  #0D6EFD;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+}
+

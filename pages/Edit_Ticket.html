@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Edit Ticket</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/et.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <script defer src='../js/Edit_Ticket.js'></script>
+    <!-- <link rel="stylesheet" href="/NewDashboard.html"> -->
+
+</head>
+
+<body >
+    <section class="Et-bg"  >
+        <div class="edit-header" >
+      <p class="et-heading" >Edit Ticket</p>
+          <i  onclick="Back()"class="bi bi-x-lg" ></i>
+        </div>
+        <br>
+        <form id="et-form" >
+            <label>Title</label>
+            <br>
+            <input  id="ediTticKet_Title" type="text" name="edit-title">
+            <br>
+            <label >Description</label>
+            <br>
+            <textarea name="edit-description" id="ediTticKet_Description"></textarea>
+            <br>
+            <label>Category</label>
+            <br>
+            <select  name="edit-category">
+            <option value="hardware-problem">hardware-problem</option>
+            <option value="software-problem">software-problem</option>
+            <option value="project">project</option>
+        </select>
+            <br>
+            <label>Priority</label>
+            <br>
+            <div class="radios">
+            
+                <input id="p-radio1"  value="1" name="p-radio" style=" margin-top: -5px; height: 36px; width: 16px;"   type="radio"> 
+                <label style="margin-top: -1px;" for="p-radio1">1</label>
+
+                <input id="p-radio2" value="2"  name="p-radio" style="margin-left: 15px; margin-top: -5px;height: 36px; width: 16px" type="radio">  
+                <label style="margin-top: -1px; margin-left: -01px;" for="p-radio2">2</label> 
+
+                <input id="p-radio3" value="3"  name="p-radio" style="margin-left: 15px;  margin-top: -5px;height: 36px;width: 16px " type="radio"> 
+                <label style="margin-top: -1px; margin-left: -01px;" for="p-radio3">3</label> 
+                
+                <input id="p-radio4" value="4"  name="p-radio" style="margin-left: 15px; margin-top: -5px; height: 36px; width: 16px" type="radio">   
+                <label style="margin-top: -1px; margin-left: -01px;" for="p-radio4">4</label> 
+
+                <input id="p-radio5" value="5"  name="p-radio" style="margin-left: 15px;  margin-top: -5px;height: 36px; width: 16px" type="radio">   
+                <label style="margin-top: -1px; margin-left: -01px;"  for="p-radio5">5</label> 
+            </div>
+            <br>
+
+            <label>Progress</label>
+            <br>
+           <div style="display: flex;"> <input style="width: 480px;" name="edit-progress" type="range" value="10" min="0" max="100" onchange="update(this.value) "> 
+            <span display id="progresscent">10%</span></div>
+            
+
+            <label>Status</label>
+            <br>
+            <select  name="edit-status" id="option" >
+                <option value="started">Started</option>
+                <option value="done">Done</option>
+                <option value="not-started"> Not Started</option>
+            </select>
+            <br>
+            <button id="Edit_Ticket-btn" type="submit" >Update Ticket</button>
+        </form>
+        
+     
+    </section>
+</div>
+</body>
+
+</html> 

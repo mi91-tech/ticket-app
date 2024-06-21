@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Create Title </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <script src='main.js'></script> -->
+    <link rel="stylesheet" href="../css/dashb.css">
+    <script defer src="../js/ct.js"></script>
+   
+
+    <link rel="stylesheet" href="../css/createTicket.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="nav-content">
+            <a href="NewDashboard.html"><i class="bi bi-house-fill"></i><a>
+                    <a href="newCreateTicket.html"><i class="bi bi-folder-plus"></i></a>
+                    <div>
+                        <p class="Appname">Ticketing App</p>
+
+
+                    </div>
+                    <div>
+
+                        <div onclick="logoutDrop()" class=" ui" id="name"> <img class="Richard" src="/images/Richard.svg"
+                                alt="">
+                            <p id="userName"></p>
+                        </div>
+                        <div id="Logout-bg">
+                            <button id="Logout-btn" onclick="logout()">Logout</button>
+
+                        </div>
+                    </div>
+
+
+        </div>
+    </div>
+
+    <p class="ct-header">Create Ticket</p>
+    <section class="ct-container">
+
+
+        <form id="create">
+            <label for="">Title</label>
+            <input class="create-title" type="text" name="title" />
+            <label for="">Description</label>
+
+            <textarea class="create-description" type="text" name="description"></textarea>
+
+            <label for="">Category</label>
+
+            <select id="problem" name="category">
+
+                <option value="hardware-problem">hardware-problem</option>
+                <option value="software-problem">software-problem</option>
+                <option value="project"> project</option>
+
+            </select>
+            <label class="edit-priority">Priority</label>
+            <br>
+            <div class="radios">
+                <input  id="ctp-radio1" value="1" name="p-radio" type="radio">
+                <label class="ctp-radio" for="ctp-radio1">1</label>
+                <input id="ctp-radio2" value="2" name="p-radio" type="radio">
+                <label class="ctp-radio"  for="ctp-radio2">2</label>
+                <input id="ctp-radio3" value="3" name="p-radio" type="radio">
+                <label class="ctp-radio" for="ctp-radio3">3</label>
+                <input id="ctp-radio4" value="4" name="p-radio" type="radio">
+                <label class="ctp-radio" for="ctp-radio4">4</label>
+                <input id="ctp-radio5" value="5" name="p-radio" type="radio">
+                <label class="ctp-radio" for="ctp-radio5">5</label>
+
+
+            </div>
+            <!-- <label>1</label -->
+            <button id="create_Ticket-btn" type="submit">Create Ticket</button>
+
+
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>
